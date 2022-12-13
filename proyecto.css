@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 5px;
+  padding: 
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+  margin: 7px 5px 5px 3px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 5px 0 50px;
+}
+
+#columnas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 15px 5px 0 80px;
+}
+
+input {
+  border-radius: 25px;
+  width: 500px;
+  height: 20px;
+  padding: 5px;
+  position: relative;
+  bottom: 10px ;
+}
+
+nav button {
+  position: relative;
+  bottom: 10px;
+}
+
+aside p {
+  font-size: 11px;
+  text-align: center;
+  margin: 0 0;
+ }
+
+aside div {
+  align-items: center;
+  margin: 8px 8px;
+}
+
+#botones button {
+  border-radius: 25px 25px;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+#uno {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#dos {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#tres {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#cuatro {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+  margin: 10px 50px 1px 50px;
+}
+
+#imagen1 {
+  width: 300px;
+}
+
+#imagen2 {
+  width: 300px;
+}
+
+#imagen3 {
+  width: 300px;
+}
+
+#imagen4 {
+  width: 300px;
+}
+
+#lupa {
+  border-radius: 25px 25px;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+
+#micro {
+  border-radius: 25px 25px;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+
+#ila {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+  margin: 1px 50px;
+}
+
+#cinco {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#seis {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#siete {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#ocho {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+#imagen5 {
+  width: 300px;
+}
+
+#imagen6 {
+  width: 300px;
+}
+
+#imagen7 {
+  width: 300px;
+}
+
+#imagen8 {
+  width: 300px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto {
+  color: gray;
+  font-size: 13px;
+}
+
+main nav{
+  margin: 0;
+  padding: 0;
+}
+
+#inicio {
+  position: relative;
+  left: 3px;
+}
+
+#shorts {
+  position: relative;
+  left: 9px;
+}
+
+#subs {
+    position: relative;
+    left: 13px;
+}
+
+#biblioteca {
+  position: relative;
+  left: 13px;
+}
+
+#pini {
+  position: relative;
+  left: 3px;
+}
+
+#ps {
+  position: relative;
+  left: 2px;
+}
+
+#psu {
+position: relative;
+right: 5px;
+}
+
+#pbi {
+position: relative;
+left: 7px;
+}
+
+#menu_hamburguesa {
+  position: relative;
+  left: 7px;
+}
